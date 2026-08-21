@@ -88,7 +88,7 @@ export const Transport: React.FC<TransportProps> = ({
             <Minus className="w-3.5 h-3.5 text-[#1e1b3a] stroke-[4]" />
           </button>
           <span className="text-base font-extrabold text-[#1e1b3a] w-4 text-center">
-            {tokensPerSecond}
+            {tokensPerSecond < 1 ? `1/${Math.round(1 / tokensPerSecond)}` : tokensPerSecond}
           </span>
           <button
             onClick={() => onChangeRate(Math.min(12, tokensPerSecond + 1))}
