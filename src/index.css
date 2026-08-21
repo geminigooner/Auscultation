@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+@layer base {
+  * {
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #1e1b3a;
+    color: #1e1b3a;
+    font-family: 'Nunito', sans-serif;
+  }
+}
+
+.toy-panel-purple {
+  background-color: #9b8cc4;
+  border: 3px solid #1e1b3a;
+  border-radius: 24px;
+  box-shadow: 0px 3px 0px #1e1b3a;
+}
+
+.toy-panel-cream {
+  background-color: #f5dfb8;
+  border: 3px solid #1e1b3a;
+  border-radius: 24px;
+  box-shadow: 0px 3px 0px #1e1b3a;
+}
+
+.toy-panel-rose {
+  background-color: #ef8a9a;
+  border: 3px solid #1e1b3a;
+  border-radius: 24px;
+  box-shadow: 0px 3px 0px #1e1b3a;
+}
+
+.toy-btn-purple {
+  background-color: #9b8cc4;
+  border: 3px solid #1e1b3a;
+  border-radius: 9999px;
+  box-shadow: 0px 3px 0px #1e1b3a;
+}
+
+.toy-btn-cream {
+  background-color: #f5dfb8;
+  border: 3px solid #1e1b3a;
+  border-radius: 9999px;
+  box-shadow: 0px 3px 0px #1e1b3a;
+}
+
+.toy-btn-rose {
+  background-color: #ef8a9a;
+  border: 3px solid #1e1b3a;
+  border-radius: 9999px;
+  box-shadow: 0px 3px 0px #1e1b3a;
+}
+
+.toy-chip {
+  border: 3px solid #1e1b3a;
+  box-shadow: 0px 2px 0px #1e1b3a;
+  border-radius: 9999px;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #2a244d;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb {
+  background: #9b8cc4;
+  border: 2px solid #1e1b3a;
+  border-radius: 9999px;
+}
