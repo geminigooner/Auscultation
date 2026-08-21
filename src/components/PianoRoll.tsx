@@ -55,8 +55,8 @@ export const PianoRoll: React.FC<PianoRollProps> = ({
       >
         <div style={{ width: GUTTER + gridW }}>
           {/* rows */}
-          <div className="flex">
-            {/* pitch gutter */}
+         <div className="flex"
+          style={{ paddingBottom: 44 }}>
             <div
               className="sticky left-0 z-20 bg-[#1e1b3a] shrink-0"
               style={{ width: GUTTER }}
