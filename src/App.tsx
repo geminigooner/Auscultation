@@ -33,7 +33,7 @@ export default function App() {
       if (!chord) return;
       const dur = (1 / rateRef.current) * 0.9;
       chord.notes.forEach((n) => {
-        soundEngine.playNote(n.midi, n.velocity, 'heart-pulse', dur);
+        soundEngine.playNote(n.midi, n.velocity, 'marimba', dur);
       });
     },
     [score],
