@@ -81,7 +81,7 @@ export const Transport: React.FC<TransportProps> = ({
         </div>
         <div className="flex items-center gap-1">
           <button
-            onClick={() => onChangeRate(Math.max(0.5, tokensPerSecond - 0.5))}
+            onClick={() => onChangeRate(Math.max(0.25, tokensPerSecond > 1 ? tokensPerSecond - 1 : tokensPerSecond / 2))}
             aria-label="Slower"
             className="w-6 h-6 flex items-center justify-center"
           >
